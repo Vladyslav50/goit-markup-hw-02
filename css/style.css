@@ -1,11 +1,3 @@
-body {
-  font-family: "Roboto", sans-serif;
-  color: var(--text-color);
-  background: var(--white-background-color);
-  list-style-type: none;
-  text-decoration: none;
-}
-
 :root {
   --primary-brand-color: #4d5ae5;
   --pressed-state-color: #404bbf;
@@ -23,44 +15,62 @@ body {
   --white-background-color: #ffffff;
 }
 
-li {
+.link {
+  text-decoration: none;
+}
+
+.list {
+  list-style: none;
+}
+
+body {
+  font-family: "Roboto", sans-serif;
+  color: var(--text-color);
+  background: var(--white-background-color);
   list-style-type: none;
+  text-decoration: none;
 }
 
 .logo {
   font-family: "Raleway", sans-serif;
   font-weight: 800;
   font-size: 18px;
-  line-height: 21px;
+  line-height: 1.17;
   display: flex;
   align-items: center;
   letter-spacing: 0.03em;
   text-transform: uppercase;
   text-decoration: none;
-  color: var(--dark-color);
+  color: var(--primary-brand-color);
 }
 
 .logo-accent {
-  color: var(--primary-brand-color);
+  color: var(--dark-color);
 }
 
 .header-link {
   font-weight: 500;
   font-size: 16px;
-  line-height: 24px;
+  line-height: 1.5;
   letter-spacing: 0.02em;
   color: var(--dark-color);
-  text-decoration: none;
+}
+
+.header-link:hover,
+.header-link:focus {
+  color: var(--pressed-state-color);
+}
+
+.address {
+  font-style: normal;
 }
 
 .header-contakt {
-  font-style: normal;
   font-weight: 400;
   font-size: 16px;
-  line-height: 24px;
+  line-height: 1.5;
   letter-spacing: 0.02em;
   color: var(--text-color);
-  text-decoration: none;
 }
 
 .header-contakt:hover,
@@ -75,7 +85,7 @@ li {
 .hero-titel {
   font-weight: 700;
   font-size: 56px;
-  line-height: 60px;
+  line-height: 1.07;
   text-align: center;
   letter-spacing: 0.02em;
   color: var(--white-background-color);
@@ -85,12 +95,18 @@ li {
   background-color: var(--primary-brand-color);
   font-weight: 500;
   font-size: 16px;
-  line-height: 24px;
+  line-height: 1.5;
   display: flex;
   align-items: center;
   letter-spacing: 0.04em;
   color: var(--white-background-color);
   border: none;
+  cursor: pointer;
+}
+
+.hero-button:hover,
+.hero-button:focus {
+  background-color: var(--pressed-state-color);
 }
 
 .paragraf-text {
@@ -104,9 +120,10 @@ li {
 .section-titel {
   font-weight: 700;
   font-size: 36px;
-  line-height: 40px;
+  line-height: 1.11;
   letter-spacing: 0.02em;
   text-transform: capitalize;
+  text-align: center;
   color: var(--dark-color);
 }
 
@@ -118,6 +135,14 @@ li {
   color: var(--dark-color);
 }
 
+.section4 {
+  background-color: var(--light_color);
+}
+
+.list-section4 {
+  background-color: var(--white-background-color);
+}
+
 .footer {
   background-color: var(--hero-background-color);
 }
@@ -125,7 +150,7 @@ li {
 .paragraf-text-white {
   font-weight: 400;
   font-size: 16px;
-  line-height: 24px;
+  line-height: 1.5;
   letter-spacing: 0.02em;
   color: var(--light_color);
 }
