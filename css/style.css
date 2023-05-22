@@ -75,7 +75,7 @@ body {
 
 .header-contakt:hover,
 .header-contakt:focus {
-  color: var(--primary-brand-color);
+  color: var(--pressed-state-color);
 }
 
 .hero-section {
@@ -92,6 +92,7 @@ body {
 }
 
 .hero-button {
+  font-family: "Roboto", sans-serif;
   background-color: var(--primary-brand-color);
   font-weight: 500;
   font-size: 16px;
@@ -100,7 +101,6 @@ body {
   align-items: center;
   letter-spacing: 0.04em;
   color: var(--white-background-color);
-  border: none;
   cursor: pointer;
 }
 
@@ -135,11 +135,11 @@ body {
   color: var(--dark-color);
 }
 
-.section4 {
+.section-for {
   background-color: var(--light_color);
 }
 
-.list-section4 {
+.list-section-for {
   background-color: var(--white-background-color);
 }
 
@@ -159,18 +159,18 @@ body {
   color: var(--light_color);
 }
 
-.portfolio button {
+.portfolio-button {
   background: var(--light_color);
-  border: none;
   font-weight: 500;
   font-size: 16px;
   line-height: 24px;
   letter-spacing: 0.04em;
+  cursor: pointer;
   color: var(--primary-brand-color);
 }
 
-.portfolio button:hover,
-.portfolio button:focus {
+.portfolio-button:hover,
+.portfolio-button:focus {
   background-color: var(--pressed-state-color);
   color: var(--white-background-color);
 }
