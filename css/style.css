@@ -36,8 +36,6 @@ body {
   font-weight: 800;
   font-size: 18px;
   line-height: 1.17;
-  display: flex;
-  align-items: center;
   letter-spacing: 0.03em;
   text-transform: uppercase;
   text-decoration: none;
@@ -86,7 +84,6 @@ body {
   font-weight: 700;
   font-size: 56px;
   line-height: 1.07;
-  text-align: center;
   letter-spacing: 0.02em;
   color: var(--white-background-color);
 }
@@ -97,8 +94,6 @@ body {
   font-weight: 500;
   font-size: 16px;
   line-height: 1.5;
-  display: flex;
-  align-items: center;
   letter-spacing: 0.04em;
   color: var(--white-background-color);
   cursor: pointer;
@@ -109,28 +104,27 @@ body {
   background-color: var(--pressed-state-color);
 }
 
-.paragraf-text {
-  font-weight: 400;
-  font-size: 16px;
-  line-height: 24px;
-  letter-spacing: 0.02em;
-  color: var(--text-color);
-}
-
 .section-titel {
   font-weight: 700;
   font-size: 36px;
   line-height: 1.11;
   letter-spacing: 0.02em;
   text-transform: capitalize;
-  text-align: center;
   color: var(--dark-color);
+}
+
+.paragraf-text {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+  color: var(--text-color);
 }
 
 .paragraf-titel {
   font-weight: 500;
   font-size: 20px;
-  line-height: 24px;
+  line-height: 1.2;
   letter-spacing: 0.02em;
   color: var(--dark-color);
 }
@@ -160,7 +154,7 @@ body {
 }
 
 .portfolio-button {
-  background: var(--light_color);
+  background-color: var(--light_color);
   font-weight: 500;
   font-size: 16px;
   line-height: 24px;
